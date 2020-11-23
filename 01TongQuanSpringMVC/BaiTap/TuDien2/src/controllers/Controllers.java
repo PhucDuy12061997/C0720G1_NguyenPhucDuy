@@ -10,12 +10,13 @@ import services.TuDien;
 @Controller
 public class Controllers {
     @Autowired
-    TuDien tuDien;
+    private TuDien tuDien;
+
     @GetMapping({"/tudien"})
-private String tudien(@RequestParam String tienganh, Model model){
-String ketqua=tuDien.tudien(tienganh);
-model.addAttribute("ketqua" , ketqua);
-return "ketqua";
+    private String tudien(@RequestParam String tienganh, Model model) {
+        String ketqua = tuDien.tudien(tienganh);
+        model.addAttribute("ketqua", ketqua);
+        return "ketqua";
     }
 
 }

@@ -11,7 +11,7 @@ import service.impl.DichService;
 public class Controlers {
     @Autowired
     private DichService dichService;
-    @GetMapping({"/tudien"})
+    @GetMapping("/tudien")
     private String tudien(@RequestParam String english, Model model) {
         String ketqua = dichService.dich(english);
         model.addAttribute("ketqua", ketqua);
