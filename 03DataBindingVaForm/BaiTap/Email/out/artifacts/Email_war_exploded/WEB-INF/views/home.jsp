@@ -21,7 +21,8 @@
             <c:forEach var="language" items="${languages}">
                 <c:choose>
                     <c:when test="${language.equals(email.language)}">
-                        <form:option value="${email.language}" selected="${email.language}"><c:out value="${email.language}"></c:out></form:option>
+                        <form:option value="${email.language}" selected="${email.language}"><c:out
+                                value="${email.language}"></c:out></form:option>
                     </c:when>
                     <c:otherwise>
                         <form:option value="${language}">${language}</form:option>
@@ -38,7 +39,8 @@
             <c:forEach var="pageSize" items="${pageSizes}">
                 <c:choose>
                     <c:when test="${pageSize.equals(email.pageSize)}">
-                        <form:option value="${email.pageSize}" selected="${email.pageSize}">${email.pageSize}</form:option>
+                        <form:option value="${email.pageSize}"
+                                     selected="${email.pageSize}">${email.pageSize}</form:option>
                     </c:when>
                     <c:otherwise>
                         <form:option value="${pageSize}">${pageSize}</form:option>
@@ -53,11 +55,11 @@
 
     <form:label path="spamsFilter">Spams Filter :
         <c:if test="${email.spamsFilter eq 'true'}">
-            <form:checkbox path="spamsFilter" checked="checked" />
+            <form:checkbox path="spamsFilter" checked="checked"/>
         </c:if>
 
         <c:if test="${email.spamsFilter eq 'false'}">
-            <form:checkbox path="spamsFilter" checked="" />
+            <form:checkbox path="spamsFilter" checked=""/>
         </c:if>
 
         <%--            <input type="checkbox" name="${email.spamsFilter}" id="${email.spamsFilter}"--%>
@@ -69,7 +71,7 @@
     <br><br>
 
     <form:label path="signature">Signature :
-        <form:textarea path="signature" value="${email.signature}" />
+        <form:textarea path="signature" value="${email.signature}"/>
     </form:label>
 
     <br><br>
