@@ -11,7 +11,7 @@ import services.Calculator;
 @Controller
 public class CalculatorController {
     @Autowired
-    Calculator calculator;
+   private Calculator mayTinh;
 
     @GetMapping("")
     public String trangChu() {
@@ -23,7 +23,7 @@ public class CalculatorController {
 
         String hienThi = "";
         try {
-            double ketqua = calculator.calculator(Double.parseDouble(so1), Double.parseDouble(so2), boNho);
+            double ketqua = mayTinh.calculator(Double.parseDouble(so1), Double.parseDouble(so2), boNho);
             hienThi = (so1 + " " + boNho + " " + so2 + " " + "=" + " " + ketqua);
         } catch (RuntimeException e) {
             hienThi = e.getMessage();
