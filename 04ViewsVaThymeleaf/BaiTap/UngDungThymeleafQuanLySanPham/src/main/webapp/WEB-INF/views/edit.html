@@ -15,8 +15,9 @@
     <form action="#" th:action="@{/update}" th:object="${sanPhams}" method="post" novalidate="novalidate">
         <fieldset>
             <legend>Sản Phẩm</legend>
-            <input type="hidden" th:hidden="*{id}"/>
+
             <div>
+                <input type="hidden" th:field="*{id}"/>
                 <label>Tên Sản Phẩm</label>
                 <input type="text" th:field="*{tenSanPham}">
                 <br><br>

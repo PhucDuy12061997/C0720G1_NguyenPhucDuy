@@ -14,21 +14,22 @@
 <div id="form">
     <form action="#" th:action="@{/save}" th:object="${sanPhams}" method="post" novalidate="novalidate">
         <fieldset>
-            <legend>Product</legend>
-        <input type="hidden" th:hidden="*{id}"/>
-        <div>
-            <label>Tên Sản Phẩm</label>
-            <input type="text" th:field="*{tenSanPham}">
-            <br><br>
-            <label>Mô Tả</label>
-            <input type="text" th:field="*{moTa}">
-            <br><br>
-            <label>Nơi Sản Xuất</label>
-            <input type="text" th:field="*{noiSanXuat}">
-            <br><br>
-            <label>Hạn Sử Dụng</label>
-            <input type="text" th:field="*{hanSuDung}">
-        </div>
+            <legend>Sản Phẩm</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>Tên Sản Phẩm</label>
+                <input type="text" th:field="*{tenSanPham}">
+                <br><br>
+                <label>Mô Tả</label>
+                <input type="text" th:field="*{moTa}">
+                <br><br>
+                <label>Nơi Sản Xuất</label>
+                <input type="text" th:field="*{noiSanXuat}">
+                <br><br>
+                <label>Hạn Sử Dụng</label>
+                <input type="text" th:field="*{hanSuDung}">
+            </div>
         <input type="submit" value="save">
         </fieldset>
 

@@ -15,19 +15,22 @@
     <form action="#" th:action="@{/view}" th:object="${sanPhams}" method="get" novalidate="novalidate">
         <fieldset>
             <legend>Sản Phẩm</legend>
-            <input type="hidden" th:hidden="*{id}"/>
+
             <div>
+                <label> id sp</label>
+                <input type="text" th:field="*{id}" readonly/>
+                <br><br>
                 <label>Tên Sản Phẩm</label>
-                <input type="text" th:field="*{tenSanPham}">
+                <input type="text" th:field="*{tenSanPham}" readonly>
                 <br><br>
                 <label>Mô Tả</label>
-                <input type="text" th:field="*{moTa}">
+                <input type="text" th:field="*{moTa}" readonly>
                 <br><br>
                 <label>Nơi Sản Xuất</label>
-                <input type="text" th:field="*{noiSanXuat}">
+                <input type="text" th:field="*{noiSanXuat}" readonly>
                 <br><br>
                 <label>Hạn Sử Dụng</label>
-                <input type="text" th:field="*{hanSuDung}">
+                <input type="text" th:field="*{hanSuDung}" readonly>
             </div>
 <!--            <input type="submit" value="xóa">-->
         </fieldset>

@@ -70,7 +70,7 @@ public class ControllerSanPham {
     }
 
 
-    @GetMapping("/view{id}")
+    @GetMapping("/view/{id}")
     public String view(@PathVariable int id, Model model) {
         model.addAttribute("sanPhams", sanPhamService.findById(id));
         return "/view";
