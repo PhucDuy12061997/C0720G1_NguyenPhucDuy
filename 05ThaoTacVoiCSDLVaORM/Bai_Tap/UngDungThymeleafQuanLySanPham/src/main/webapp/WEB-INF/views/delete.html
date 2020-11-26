@@ -1,0 +1,41 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+
+      Thông Tin Sản Phẩm XOÁ
+
+</p>
+</p>
+<div id="form">
+    <form  th:action="@{/delete}" th:object="${sanPhams}" method="post" novalidate="novalidate">
+        <fieldset>
+            <legend>Sản Phẩm</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>Tên Sản Phẩm</label>
+                <input type="text" th:field="*{tenSanPham}">
+                <br><br>
+                <label>Mô Tả</label>
+                <input type="text" th:field="*{moTa}">
+                <br><br>
+                <label>Nơi Sản Xuất</label>
+                <input type="text" th:field="*{noiSanXuat}">
+                <br><br>
+                <label>Hạn Sử Dụng</label>
+                <input type="text" th:field="*{hanSuDung}">
+            </div>
+            <input type="submit" value="xóa">
+        </fieldset>
+
+
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<head th:replace="layout::head"></head>
+<h1>Trang Chủ</h1>
+<p>
+    <a th:href="@{/create}">
+        Thêm Mới Sản Phẩm
+    </a>
+</p>
+<p th:text="${them}"></p>
+<p th:text="${sua}"></p>
+<table border="1" id="sanPhamService">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Tên</th>
+        <th>Mô Tả</th>
+        <th>Nơi Sản Xuất</th>
+        <th>Hạn Sử Dụng</th>
+        <th>Sửa</th>
+        <th>Xóa</th>
+        <th>Chi Tiết SP</th>
+    </tr>
+    </thead>
+    <body>
+    <tr th:each=" row,rowStat : ${sanPhams}">
+        <td th:text="${row.getId()}"></td>
+        <td th:text="${row.getTenSanPham()}"></td>
+        <td th:text="${row.getMoTa()}"></td>
+        <td th:text="${row.getNoiSanXuat()}"></td>
+        <td th:text="${row.getHanSuDung()}"></td>
+        <td><a th:href="@{/edit/{id}(id=${row.id})}">Sửa</a></td>
+<!--        <td><a th:href="@{/student/detail/{id}(id=${student.id})}">Detail student</a></td>-->
+        <td><a th:href="@{/delete/{id}(id=${row.id})}">Xóa</a></td>
+
+        <td><a th:href="@{/view/{id}(id=${row.id})}">chi tiết</a></td>
+    </tr>
+
+
+    </body>
+</table>
+</html>

@@ -15,7 +15,7 @@ import java.util.List;
 @Controller
 public class ControllerSanPham {
     @Autowired
-    SanPhamService sanPhamService;
+   private SanPhamService sanPhamService;
 
     @GetMapping("")
     public String trangchu() {
