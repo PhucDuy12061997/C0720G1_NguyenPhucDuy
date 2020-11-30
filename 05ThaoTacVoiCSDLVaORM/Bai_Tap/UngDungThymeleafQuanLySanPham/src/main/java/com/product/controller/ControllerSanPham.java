@@ -53,7 +53,7 @@ public class ControllerSanPham {
     @PostMapping("/update")
     public String update(SanPham sanPham, RedirectAttributes redirectAttributes) {
         sanPhamService.update(sanPham.getId(), sanPham);
-        redirectAttributes.addFlashAttribute("massage", "sửa thành công!");
+        redirectAttributes.addFlashAttribute("massage1", "sua thanh cong!");
         return "redirect:/index";
     }
 
@@ -66,7 +66,7 @@ public class ControllerSanPham {
     @PostMapping("/delete")
     public String delete(SanPham sanPham, RedirectAttributes redirectAttributes) {
         sanPhamService.remove(sanPham.getId());
-        redirectAttributes.addFlashAttribute("massage", "Xoa thanh công");
+        redirectAttributes.addFlashAttribute("massage2", "Xoa thanh cong");
         return "redirect:/index";
     }
 

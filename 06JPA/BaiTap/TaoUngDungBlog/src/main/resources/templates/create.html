@@ -1,0 +1,42 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div th:replace="~{layout::daublog}"></div>
+<body>
+<!--<div th:replace="~{layout::dausp}"></div>-->
+<p>
+   add
+</p>
+</p>
+<div id="form">
+    <form action="#" th:action="@{/save}" th:object="${blogentitys}" method="post">
+        <fieldset>
+            <legend>Blog</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{name_blog}">
+                <br><br>
+                <label>Descrribe</label>
+                <input type="text" th:field="*{describe_blog}">
+                <br><br>
+                <label>UseBolog</label>
+                <textarea  type="text" th:field="*{use_blog}"></textarea>
+
+                <br><br>
+                <label>Lock Day</label>
+                <input type="date" th:field="*{dateOfManufacture}">
+            </div>
+            <input type="submit" value="save">
+        </fieldset>
+    </form>
+</div>
+<footer th:replace="layout::cuoiblog">
+</footer>
+
+</body>
+</html>

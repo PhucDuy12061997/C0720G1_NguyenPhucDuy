@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<head th:replace="layout::daublog"></head>
+<h1>My Home</h1>
+<p>
+    <a th:href="@{/create}">
+        ADD
+    </a>
+</p>
+<p th:text="${massage}"></p>
+<p th:text="${massage1}"></p>
+<p th:text="${massage2}"></p>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>describe</th>
+        <th>useBlog</th>
+        <th>Lock Day</th>
+        <th>edit</th>
+        <th>delete</th>
+        <th>view</th>
+    </tr>
+    </thead>
+    <body>
+    <tr th:each=" row,rowStat : ${blogentytis}">
+        <td th:text="${row.getId()}"></td>
+        <td th:text="${row.getName_blog()}"></td>
+        <td th:text="${row.getDescribe_blog()}"></td>
+<!--        <td> <textarea th:text="${row.getUse_blog()}" readonly></textarea></td>-->
+        <td th:text="${row.getUse_blog()}"></td>
+        <td th:text="${row.getDateOfManufacture()}"></td>
+        <td><a th:href="@{/edit/{id}(id=${row.id})}">edit</a></td>
+        <!--        <td><a th:href="@{/student/detail/{id}(id=${student.id})}">Detail student</a></td>-->
+        <td><a th:href="@{/delete/{id}(id=${row.id})}">delete</a></td>
+
+        <td><a th:href="@{/view/{id}(id=${row.id})}">view</a></td>
+    </tr>
+
+
+    </body>
+
+</table>
+<footer th:replace="layout::cuoiblog">
+</footer>
+</html>

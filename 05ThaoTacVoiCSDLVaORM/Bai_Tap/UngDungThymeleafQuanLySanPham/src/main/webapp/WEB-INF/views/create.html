@@ -5,15 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<!--<div th:replace="~{layout::dausp}"></div>-->
+<div th:replace="~{layout::dausp}"></div>
 <p>
-    thêm Sản Phẩm
+    add
 </p>
 </p>
 <div id="form">
     <form action="#" th:action="@{/save}" th:object="${sanPhams}" method="post" novalidate="novalidate">
         <fieldset>
-            <legend>Sản Phẩm</legend>
+            <legend>Blog</legend>
 
             <div>
                 <input type="hidden" th:field="*{id}"/>
@@ -33,7 +33,8 @@
         </fieldset>
     </form>
 </div>
-<div th:replace="~{layout::cuoisp}"></div>
+<footer th:replace="layout::cuoisp">
+</footer>
 
 </body>
 </html>

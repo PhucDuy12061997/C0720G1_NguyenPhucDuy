@@ -28,11 +28,11 @@ public class SanPhamRepositoryimpl implements SanPhamRepository {
 
     @Override
     public SanPham findById(int id) {
-        //dòng lệnh HQL,selct SanPham có id ... tại vị trí....
+//        dòng lệnh HQL,selct SanPham có id ... tại vị trí....
 //TypedQuery<SanPham>typedQuery=BaseRepository.entityManager
 //        .createQuery("select s from sanpham s where s.id=: idsanpham ",SanPham.class);
 //        return typedQuery.getSingleResult();
-
+//
         return BaseRepository.entityManager.find(SanPham.class, id);
     }
 
