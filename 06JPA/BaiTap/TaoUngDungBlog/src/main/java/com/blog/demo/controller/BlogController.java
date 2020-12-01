@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
@@ -71,4 +72,11 @@ redirectAttributes.addFlashAttribute("massage2"," xoas thaanh cong");
         model.addAttribute("blogentitys", blogService.findById(id));
         return "view";
     }
+
+
+//    @PostMapping("/find")
+//    public String find(@RequestParam String searchName,Model model){
+//        model.addAttribute("blogentitys",blogService.findByName(searchName));
+//        return"list";
+//    }
 }

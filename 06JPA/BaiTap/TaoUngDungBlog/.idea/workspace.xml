@@ -2,45 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a7d2bb-0ab0-43f7-8639-c3beaed8f880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/entity/BlogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/repository/BlogEntytiRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/impl/BlogServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/create_demo_springbooot/src/main/java/com/codegym/demo/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/create_demo_springbooot/src/main/resources/static/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThucHanh/create_demo_springbooot/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/build/classes/java/main/com/product/controller/ControllerSanPham.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/build/classes/java/main/com/product/controller/ControllerSanPham.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/build/libs/UngDungThymeleafQuanLySanPham-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/build/libs/UngDungThymeleafQuanLySanPham-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/java/com/product/controller/ControllerSanPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/java/com/product/controller/ControllerSanPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/java/com/product/repository/impl/SanPhamRepositoryimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/java/com/product/repository/impl/SanPhamRepositoryimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.idea/c07g-spring-orm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/ThucHanh/c07g-spring-orm/.idea/c07g-spring-orm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/demo/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/demo/entity/BlogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/entity/BlogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/demo/repository/BlogEntytiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/repository/BlogEntytiRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/impl/BlogServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/demo/service/impl/BlogServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../05ThaoTacVoiCSDLVaORM/Bai_Tap/UngDungThymeleafQuanLySanPham" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,6 +71,7 @@
       <recent name="D:\C0720G1-NguyenPhucDuy\module4\06JPA\BaiTap\TaoUngDungBlog\src\main\resources\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0720G1-NguyenPhucDuy\module4\06JPA\BaiTap\TaoUngDungBlog\src\main\resources\static" />
       <recent name="D:\C0720G1-NguyenPhucDuy\module4\06JPA\BaiTap\TaoUngDungBlog\src\main\resources\templates" />
       <recent name="D:\C0720G1-NguyenPhucDuy\module4\06JPA\BaiTap\TaoUngDungBlog\src\main\java\com\blog\demo" />
     </key>
@@ -118,7 +97,8 @@
       <updated>1606464418310</updated>
       <workItem from="1606464421279" duration="7602000" />
       <workItem from="1606659054643" duration="4301000" />
-      <workItem from="1606699118724" duration="488000" />
+      <workItem from="1606699118724" duration="5925000" />
+      <workItem from="1606710765541" duration="3101000" />
     </task>
     <servers />
   </component>
@@ -126,46 +106,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1606468523054">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1606710963715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606468523054" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606659390616">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606710963715" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606724820561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606659390616" />
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom" timestamp="1606699792741">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606724820561" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.0.center" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.0.left" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.0.right" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.1.bottom" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.1.bottom" timestamp="1606724826101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.1.center" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.1.center" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.1.left" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.1.left" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
-    <state width="1323" height="247" key="GridCell.Tab.1.right" timestamp="1606699792741">
+    <state width="1323" height="176" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
+    <state width="1323" height="176" key="GridCell.Tab.1.right" timestamp="1606724826100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606699792741" />
+    <state width="1323" height="176" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606724826100" />
     <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1606468360329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,7 +172,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/blog/demo/controller/BlogController.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -13,5 +13,7 @@ public interface BlogService {
     void update(int id,BlogEntity blogEntity);
 
     void remove(int id);
-//    List<BlogEntity>sorfByName(String name);
+//    List<BlogEntity>findByName(String name);
+
+
 }

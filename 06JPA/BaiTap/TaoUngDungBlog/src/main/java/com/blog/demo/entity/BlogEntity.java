@@ -9,6 +9,7 @@ public class BlogEntity {
     private Integer id;
     private String name_blog;
     private String describe_blog;
+    private String img_blog;
     private String use_blog;
     @Column(name = "date_of_manufacture", columnDefinition = "DATE")
     private String dateOfManufacture;
@@ -43,6 +44,14 @@ public class BlogEntity {
 
     public void setUse_blog(String use_blog) {
         this.use_blog = use_blog;
+    }
+
+    public String getImg_blog() {
+        return img_blog;
+    }
+
+    public void setImg_blog(String img_blog) {
+        this.img_blog = img_blog;
     }
 
     public String getDateOfManufacture() {

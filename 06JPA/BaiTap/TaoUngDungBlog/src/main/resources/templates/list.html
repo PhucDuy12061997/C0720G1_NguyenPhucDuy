@@ -20,6 +20,7 @@
         <th>Id</th>
         <th>Name</th>
         <th>describe</th>
+        <th> img </th>
         <th>useBlog</th>
         <th>Lock Day</th>
         <th>edit</th>
@@ -28,10 +29,21 @@
     </tr>
     </thead>
     <body>
+<!--<form  action="#" th:action="@{/find}" method="post">-->
+<!--    <label>Find</label>-->
+<!--    <input type="text" placeholder="findbyname" name="searchName">-->
+<!--    <input type="submit" value="search">-->
+<!--&lt;!&ndash;    <form action="#" th:action="@{/save}" th:object="${blogentitys}" method="post">&ndash;&gt;-->
+
+<!--</form>-->
+
+
     <tr th:each=" row,rowStat : ${blogentytis}">
         <td th:text="${row.getId()}"></td>
         <td th:text="${row.getName_blog()}"></td>
         <td th:text="${row.getDescribe_blog()}"></td>
+<td ><img style="width: 30px;height: 30px" th:src="'/'+${row.getImg_blog()}" alt=""></td>
+
 <!--        <td> <textarea th:text="${row.getUse_blog()}" readonly></textarea></td>-->
         <td th:text="${row.getUse_blog()}"></td>
         <td th:text="${row.getDateOfManufacture()}"></td>

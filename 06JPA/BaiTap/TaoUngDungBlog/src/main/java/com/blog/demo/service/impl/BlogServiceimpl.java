@@ -39,8 +39,18 @@ public class BlogServiceimpl implements BlogService {
     }
 
 //    @Override
-//    public List<BlogEntity> sorfByName(String name) {
+//    public List<BlogEntity> findByName(String name) {
 //        return this.blogEntytiRepository.findByNameContaining(name);
+//    }
+
+//    @Override
+//    public void find(BlogEntity blogEntity) {
+//        return this.blogEntytiRepository.findByNameContaining()
+//    }
+
+//    @Override
+//    public List<BlogEntity> finByName(String name) {
+//        return this.blogEntytiRepository.findById(name);
 //    }
 
 
