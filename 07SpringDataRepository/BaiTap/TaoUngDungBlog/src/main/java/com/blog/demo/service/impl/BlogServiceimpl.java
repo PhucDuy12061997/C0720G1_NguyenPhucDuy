@@ -51,5 +51,10 @@ public class BlogServiceimpl implements BlogService {
         return this.blogEntityRepository.findByNameBlogContaining(keyword,pageable);
     }
 
+    @Override
+    public Page<BlogEntity> findAllByOrderByDateOfManufacture(Pageable pageable) {
+        return this.blogEntityRepository.findAllByOrderByDateOfManufacture(pageable);
+    }
+
 
 }

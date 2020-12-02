@@ -24,4 +24,6 @@ public interface BlogService {
     //    List<BlogEntity>findByName(String name);
     Page<BlogEntity> searchBlogtByName(String keyword, Pageable pageable);
 
+    Page<BlogEntity> findAllByOrderByDateOfManufacture(Pageable pageable);
+
 }

@@ -42,7 +42,11 @@ public class BlogController {
         model.addAttribute("checkKeyWord", checkKeyWord);
         return "list";
     }
-
+     @GetMapping("/sort")
+     public String sort(Model model,Pageable pageable){
+        model.addAttribute("blogentytis",blogService.findAllByOrderByDateOfManufacture(pageable));
+        return "list";
+     }
     @GetMapping("/listcategory")
     public String listcategory(Model model, @PageableDefault(size = 2) Pageable pageable, @RequestParam Optional<String> keyword) {
         String checkKeyWord = "";

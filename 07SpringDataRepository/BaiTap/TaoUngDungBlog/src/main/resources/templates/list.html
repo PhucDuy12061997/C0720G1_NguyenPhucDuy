@@ -40,6 +40,9 @@
     <input type="text" name="keyword" />
     <input type="submit" value="Search">
 </form>
+<br>
+<button type="button"><a th:href="@{/sort}">Sort by write date</a></button>
+
 
     <tr th:each=" row,rowStat : ${blogentytis}">
         <td th:text="${row.getId()}"></td>

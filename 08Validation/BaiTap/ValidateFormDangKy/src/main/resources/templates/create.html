@@ -1,0 +1,53 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<!--<div th:replace="~{layout::dausp}"></div>-->
+<p>
+    add
+</p>
+</p>
+<div id="form">
+    <form  th:action="@{/save}" th:object="${userList}" method="post">
+        <fieldset>
+            <legend>User</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>First Name</label>
+                <input type="text" th:field="*{firstName}">
+                <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></span>
+                <br><br>
+                <label>last Name</label>
+                <input type="text" th:field="*{lastName}">
+                <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></span>
+                <br><br>
+                <label>Phone Number</label>
+                <input type="text" th:field="*{phoneNumber}">
+                <span th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></span>
+
+                <br><br>
+                <label>Age</label>
+                <input type="date" th:field="*{age}">
+                <span th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></span>
+                <br><br>
+                <label>Email</label>
+                <input type="text" th:field="*{email}">
+                <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+
+                <br>
+            </div>
+            <input type="submit" value="save">
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+<!--<footer th:replace="layout::cuoiblog">-->
+<!--</footer>-->
+</html>
