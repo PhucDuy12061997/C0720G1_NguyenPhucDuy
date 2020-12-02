@@ -35,7 +35,8 @@ public class User {
 
     @Email(message = "\n" +
             "Enter the correct emial format")
-    private String Email;
+    private String email;
+//    SAO CAI EMAIL NAY VIET HOA TRONG KHI th:errors lai la 'email' ?
 
 
     public User() {
@@ -82,10 +83,10 @@ public class User {
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
 }
