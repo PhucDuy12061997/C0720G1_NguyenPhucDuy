@@ -52,9 +52,7 @@ public class BorrowBooksController {
         model.addAttribute("books", booksList);
         String borrow="Borrow Complete And  !"+ this.bookService.borrow(id);
         model.addAttribute("message",borrow);
-//        redirectAttributes.addFlashAttribute("message", "Borrow Complete !"+ this.bookService.borrow(id));
         return "index";
-//        return "index";
     }
 
     @GetMapping("/give-back")

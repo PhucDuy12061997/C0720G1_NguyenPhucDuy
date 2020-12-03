@@ -13,6 +13,8 @@
 <h3>Name : <span th:text="${books.nameOfBook}"></span></h3>
 <h3>Category : <span th:text="${books.category}"></span></h3>
 
+
+
 <a th:href="@{/borrow(idBook=${books.idBook})}">Borrow</a>
 </body>
 </html>
