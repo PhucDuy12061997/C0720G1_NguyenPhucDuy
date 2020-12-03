@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a7d2bb-0ab0-43f7-8639-c3beaed8f880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/ThucHanh/ValidatingFormInput/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/java/com/example/validate/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/static/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/config/LogBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/controller/BorrowBooksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/repository/BookRentNumberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/service/BookRentNumberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/service/impl/BookRentNumberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/java/ungdungmuonsach/baitap/service/impl/BooksServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/resources/templates/error-book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/resources/templates/give-back.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../09AOPVaExceptionHandling/BaiTap/UngDungMuonSach/src/main/resources/templates/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/controller/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/repository/BlogEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/repository/BlogEntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/service/impl/BlogServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/java/com/blog/demo/service/impl/BlogServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07SpringDataRepository/BaiTap/TaoUngDungBlog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08Validation/BaiTap/ValidateFormDangKy/src/main/resources/templates/create.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +99,9 @@
       <workItem from="1606699118724" duration="5925000" />
       <workItem from="1606710765541" duration="3101000" />
       <workItem from="1606813285172" duration="4624000" />
+      <workItem from="1606903308170" duration="970000" />
+      <workItem from="1606923949441" duration="341000" />
+      <workItem from="1606930191036" duration="1064000" />
     </task>
     <servers />
   </component>
@@ -112,10 +113,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606710963715" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606724820561">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606923972619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606724820561" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606923972619" />
     <state width="1323" height="425" key="GridCell.Tab.0.bottom" timestamp="1606818235786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

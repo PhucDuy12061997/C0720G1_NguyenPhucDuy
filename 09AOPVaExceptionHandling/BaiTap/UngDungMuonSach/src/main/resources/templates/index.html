@@ -1,0 +1,47 @@
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid blue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body background="tải%20xuống.jpg" style="height: 768px;width: 1000px">
+<div>
+    <table>
+    <a th:href="@{/create}">Create New Book</a><br>
+<!--    <p style="color: blue" th:text="${message}"></p>-->
+
+        <tr>
+            <th>Name</th>
+            <th>NumberOfBooks</th>
+            <th>View </th>
+            <th>Give Back</th>
+        </tr>
+        <th:block th:each="book : ${books}">
+            <tr>
+                <td th:text="${book.nameOfBook}"></td>
+                <td th:text="${book.numberOfBooks}"></td>
+                <td><a th:href="@{/view(id=${book.idBook})}">View</a></td>
+                <td><a th:href="@{/give-back(id=${book.idBook})}">Give Back</a></td>
+
+            </tr>
+        </th:block>
+    </table>
+</div>
+
+</body>
+</html>

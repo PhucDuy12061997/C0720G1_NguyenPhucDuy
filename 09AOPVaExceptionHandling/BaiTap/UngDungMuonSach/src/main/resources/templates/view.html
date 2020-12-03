@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Blog</title>
+</head>
+<body style="text-align: center">
+
+<a th:href="@{/}">
+    Back to home
+</a><br>
+<input type="hidden" value="${books.id}">
+<h3>Name : <span th:text="${books.nameOfBook}"></span></h3>
+<h3>Category : <span th:text="${books.category}"></span></h3>
+
+<a th:href="@{/borrow(idBook=${books.idBook})}">Borrow</a>
+</body>
+</html>
