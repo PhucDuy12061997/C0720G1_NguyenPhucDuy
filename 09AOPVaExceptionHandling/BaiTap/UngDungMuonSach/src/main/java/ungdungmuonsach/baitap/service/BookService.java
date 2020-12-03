@@ -1,6 +1,5 @@
 package ungdungmuonsach.baitap.service;
 
-import org.springframework.stereotype.Service;
 import ungdungmuonsach.baitap.entity.Books;
 
 import java.util.List;
@@ -11,7 +10,7 @@ public interface BookService {
 
     void save(Books books);
 
-    void borrow(Integer id) throws Exception;
+    String borrow(Integer id) throws Exception;
 
     String giveBack(Integer rentNumber, Integer id);
 }

@@ -16,7 +16,7 @@ public class BorrowBooksController {
     @Autowired
     BookService bookService;
 
-    @GetMapping({"", "/index"})
+    @GetMapping({"/", "/index"})
     public String home(Model model) {
         List<Books> booksList = bookService.findAll();
         model.addAttribute("books", booksList);
@@ -47,11 +47,13 @@ public class BorrowBooksController {
     }
 
     @GetMapping("/borrow")
-    public String Borrow(@RequestParam(value = "idBook") Integer id, RedirectAttributes redirectAttributes) throws Exception {
-        this.bookService.borrow(id);
-        redirectAttributes.addFlashAttribute("message", "Borrow Complete !");
-
-        return "redirect:/index";
+    public String Borrow(@RequestParam(value = "idBook") Integer id,Model model) throws Exception {
+        List<Books> booksList = bookService.findAll();
+        model.addAttribute("books", booksList);
+        String borrow="Borrow Complete And  !"+ this.bookService.borrow(id);
+        model.addAttribute("message",borrow);
+//        redirectAttributes.addFlashAttribute("message", "Borrow Complete !"+ this.bookService.borrow(id));
+        return "index";
 //        return "index";
     }
 
