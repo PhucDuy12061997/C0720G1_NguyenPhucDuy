@@ -35,17 +35,17 @@ public class BooksServiceImpl implements BookService {
 
     @Override
     public String borrow(Integer id) throws Exception {
-            Books books = findById(id);
-            if (books.getNumberOfBooks() == 0) {
-                throw new Exception("Hết sách này !");
-            } else {
-                books.setNumberOfBooks(books.getNumberOfBooks() - 1);
-                LibraryCard libraryCard = new LibraryCard();
-                libraryCard.setIdCard((int) (Math.random() * 100));
-                libraryCard.setRentNumber((int) ((Math.random() * 99999) + 10000));
-                this.bookRentNumberRepository.save(libraryCard);
-                return String.valueOf(libraryCard.getRentNumber()) ;
-            }
+        Books books = findById(id);
+        if (books.getNumberOfBooks() == 0) {
+            throw new Exception("Hết sách này !");
+        } else {
+            books.setNumberOfBooks(books.getNumberOfBooks() - 1);
+            LibraryCard libraryCard = new LibraryCard();
+            libraryCard.setIdCard((int) (Math.random() * 100));
+            libraryCard.setRentNumber((int) ((Math.random() * 99999) + 10000));
+            this.bookRentNumberRepository.save(libraryCard);
+            return String.valueOf(libraryCard.getRentNumber());
+        }
 
     }
 
