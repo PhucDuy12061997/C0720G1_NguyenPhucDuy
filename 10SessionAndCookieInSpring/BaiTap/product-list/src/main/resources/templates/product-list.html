@@ -33,16 +33,10 @@
             <td th:text="${product.color}"></td>
             <td th:text="${product.price}"></td>
             <td th:text="${product.quantity}"></td>
-<!--            <td>-->
-<!--                <label for="quantityNew"></label>-->
-<!--                <select name="quantityNew" id="quantityNew">-->
-<!--                    <option th:each="quantityProduct : ${quantityProducts}"-->
-<!--                            th:text="${quantityProduct}"-->
-<!--                            th:selected="${quantityProduct == product.quantity}">-->
-<!--                    </option>-->
-<!--                </select>-->
-<!--            </td>-->
             <td th:text="${product.manufacturer}"></td>
+
+
+
             <td><a th:href="@{/product/{id}/view(id=${product.getId()})}">view</a></td>
             <td><a th:href="@{/product/{id}/delete-product-list(id=${product.getId()})}">delete</a></td>
         </tr>
