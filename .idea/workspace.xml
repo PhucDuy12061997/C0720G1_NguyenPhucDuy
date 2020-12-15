@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf7a56c3-5deb-430c-a04b-c5c224da0079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/model/MyAccountDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/java/com/example/springsecurity/service/Impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15PhanQuyenUngDung/thuc_hanh/spring-security/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14BaoMatUngDungTrongSpring/BaiTap/blog-security/src/main/java/com/codegym/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/14BaoMatUngDungTrongSpring/BaiTap/blog-security/src/main/java/com/codegym/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lUStfp81EhSCWrDY2CA12a4V58" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CaseStadyFuramaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.CaseStadyFuramaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf7a56c3-5deb-430c-a04b-c5c224da0079" name="Default Changelist" comment="" />
+      <created>1607650392204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607650392204</updated>
+      <workItem from="1607650398853" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

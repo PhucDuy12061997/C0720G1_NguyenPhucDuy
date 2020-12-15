@@ -3,7 +3,10 @@ package com.codegym.entity;
 import javax.persistence.*;
 
 @Entity(name = "blog")
-public class Blog {
+public class
+
+
+Blog {
 
     @Id
     private String id;
